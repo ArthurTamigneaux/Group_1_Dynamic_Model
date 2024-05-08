@@ -7,7 +7,7 @@ clc
 %% Task 2
 
 t0 = 0;                 	    % start time of simulation [month]
-tfinal = 100;                    % end time of simulation [months]
+tfinal = 200;                    % end time of simulation [months]
 y0  = [10 7 5]; % initial population size [population size]
 tspan = [t0 tfinal];
 
