@@ -20,6 +20,8 @@ d2 : Death rate of lynx due to natural causes or lack of prey.
 
 We will call the plant mass y(1), the number of herbivores y(2) , and the number of carnivores y(3).
 
+Sources: [source_1](https://www.jstor.org/stable/1940591?seq=2), [source_2](https://sysbio.mx/wp-content/uploads/2021/02/2017_Book_ModelingLife.pdf), 
+
 ## Task 2: 
 Find parameter solutions for the following three scenarios:
 
