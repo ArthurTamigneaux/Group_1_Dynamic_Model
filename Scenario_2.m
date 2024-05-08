@@ -8,17 +8,16 @@ clc
 
 t0 = 0;                 	    % start time of simulation [month]
 tfinal = 200;                    % end time of simulation [months]
-y0  = [10 7 5]; % initial population size [population size]
+y0  = [0.05 0.4 0.6]; % initial population size [population size]
 tspan = [t0 tfinal];
 
 % Assigning values to the parameters: 
-y0  = [3  4  1];
-a1 = [4];
-a2  = [0.3];
-b1 = [6];
-b2 = [5];
-d1 = [0.4];
-d2 = [0.5];
+a1 = 5;
+a2  = 0.2;
+b1 = 1;
+b2 = 2;
+d1 = 0.88;
+d2 = 0.5;
 % The parameters are the following: 
 % a1 : Growth rate of hares due to the availability of plants.
 % b1 : Represents the effect of predation on hares by lynx.
@@ -48,5 +47,3 @@ dydt(2) = ((a1*y(1))/(1+b1*y(1)))*y(2)-d1*y(2)-(a2*y(2)/(1+b2*y(2)))*y(3);
 dydt(3) = (a2*y(2)/(1+b2*y(2)))*y(3) - d2*y(3);
 
 end
-
-
