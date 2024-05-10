@@ -12,12 +12,12 @@ y0  = [0.75 0.15 8.3]; % initial population size [population size]
 tspan = [t0 tfinal];
 
 % Assigning values to the parameters: 
-a1 = 5;
+a1 = [5];
 a2  = 0.1;
-b1 = 3;
-b2 = 1.1;
-d1 = 0.4;
-d2 = 0.01;
+b1 = [3];
+b2 = [1.1];
+d1 = [0.4];
+d2 = [0.01];
 % The parameters are the following: 
 % a1 : Growth rate of hares due to the availability of plants.
 % b1 : Represents the effect of predation on hares by lynx.
@@ -36,6 +36,16 @@ d2 = 0.01;
 plot(t,y)           % plot exponential growth simulation
 xlabel ('Time')
 ylabel('Population size')
+
+
+legend('Plant','Hare','Lynx')
+
+figure("Name",'State space')
+plot3(y(:,1),y(:,2),y(:,3))
+title('State space')
+xlabel('Plants')
+ylabel('Hares')
+zlabel('Lynx')
 
 % Function: 
 function dydt = plants_hare_lynx(t,y,a1,a2,b1,b2,d1,d2)

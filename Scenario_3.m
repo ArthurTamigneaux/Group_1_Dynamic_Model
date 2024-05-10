@@ -38,6 +38,14 @@ d2 = 0.01;          % d2 = [0.01-1]
 plot(t,y)           % plot exponential growth simulation
 xlabel ('Time')
 ylabel('Population size')
+legend('Plant','Hare','Lynx')
+
+figure("Name",'State space')
+plot3(y(:,1),y(:,2),y(:,3))
+title('State space')
+xlabel('Plants')
+ylabel('Hares')
+zlabel('Lynx')
 
 % Function: 
 function dydt = plants_hare_lynx(t,y,a1,a2,b1,b2,d1,d2)
