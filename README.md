@@ -33,7 +33,7 @@ In the first scenario, we have changed mainly 2 parameters: (1) the initial cond
 
 ### Scenario 3
 
-Only the values of the initial population of the plants and the hare were changed. From 0.75 to 0.85 for the plants and 0.15 to 0.1 for the hares. In our scenario, we can define the model as chaos. 
+Only the values of the initial population of the plants and the hare were changed. In our scenario, we can define the model as chaos. 
 First of all, it is deterministic due to the fact that it keeps a similar pattern over the months even if it is not regular. 
 Secondly, the system is bounded inside a space and doesn't go to infinity. 
 Lastly, it is irregular due to the fact that it does not repeat itself in a periodic way. It never repeats itself exactly the same. 
