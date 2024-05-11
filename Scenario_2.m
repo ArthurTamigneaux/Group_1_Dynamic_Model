@@ -13,7 +13,7 @@ tspan = [t0 tfinal];
 
 % Assigning values to the parameters: 
 a1 = 5;
-a2  = 0.2;
+a2  = 0.1;
 b1 = 1;
 b2 = 2;
 d1 = 0.88;
