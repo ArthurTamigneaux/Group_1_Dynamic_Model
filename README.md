@@ -29,7 +29,10 @@ Sources: [source_1](https://www.jstor.org/stable/1940591?seq=2), [source_2](http
 In the first scenario, we have changed mainly 2 parameters: (1) the initial condition for the number of predators, thus lynx and (2) the parameter b2 which represents the effect of the competition among the lynx for hares. When setting the parameters respectivelly on 8.3 and 1.1 while conserving the other parameters at the same values, we obtain a graph with each curve having a consistant and regular periodicity of approximatively 70 months.
 
 ### Scenario 2
-*The lynx population goes extinct (population very close to zero) after a year, plants and hares stabilize within 120 months.*
+
+In the second scenario, we had to change 6 parameters in order to reach the requirements: (1)(2)(3) the initial conditions for every population, (4) the parameter b1 had to decrease to 0.1, (5) the parameter had to increase to 0.88, and (6) had to increase to 0.5. When applying those parameters in matlab (might not be exactlty the same in another tool or software), we can see the population of lynx go extinct after around 12 months and the relation between hares and plants stabilize around 120 months.
+
+Sources: [source_3](https://modelinginbiology.github.io/Grass-Sheep-Wolves-interactive-simulations?loc=0)
 
 ### Scenario 3
 
