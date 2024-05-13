@@ -30,7 +30,7 @@ In the first scenario, we have changed mainly 2 parameters: (1) the initial cond
 
 ### Scenario 2
 
-In the second scenario, we had to change 6 parameters in order to reach the requirements: (1)(2)(3) the initial conditions for every population, (4) the parameter b1 had to decrease to 0.1, (5) the parameter had to increase to 0.88, and (6) had to increase to 0.5. When applying those parameters in matlab (might not be exactlty the same in another tool or software), we can see the population of lynx go extinct after around 12 months and the relation between hares and plants stabilize around 120 months.
+In the second scenario, 6 parameters changed in order to reach the requirements: (1)(2)(3) the initial conditions for every population, (4) the parameter b1 decreased to 0.1, (5) the parameter increased to 0.88, and (6) increased to 0.5. When applying those parameters in matlab, the population of lynx go extinct after around 12 months and the relation between hares and plants stabilize around 120 months.
 
 Sources: [source_3](https://modelinginbiology.github.io/Grass-Sheep-Wolves-interactive-simulations?loc=0)
 
