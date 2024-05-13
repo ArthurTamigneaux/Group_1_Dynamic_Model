@@ -2,23 +2,23 @@
 
 ## Task 1: 
 
-The model provided describes the evolution of the populations of plants, hares and lynx depending on several parameters. When determining the parameters with parsimony, the curves in the graph will drastically change leading to several behaviors and interactions between each species. Each of the species is dependent on one another and this is always visible on the graphs. 
+The model describes the evolution of the populations of plants, hares and lynx depending on several parameters. When determining the parameters with parsimony, the curves in the graph will drastically change leading to several behaviors and interactions between each species. Each species is dependent on one another and this is always visible on the graphs. 
 
 The parameters are the following: 
 
 a1 : Growth rate of hares due to the availability of plants.
 
-b1 : Represents the effect of predation on hares by lynx.
+b1 : The effect of predation on hares by lynx.
 
-d1 : Death rate of hares due to natural causes or predation.
+d1 : Death rate of hares from natural causes or predation.
 
-a2 : Growth rate of lynx due to the availability of hares.
+a2 : Growth rate of lynx due to the availability of hares. 
 
-b2 : Represents the effect of competition among lynx for hares.
+b2 : The effect of competition among lynx for hares.
 
-d2 : Death rate of lynx due to natural causes or lack of prey.
+d2 : Death rate of lynx from natural causes or lack of prey.
 
-We will call the plant mass y(1), the number of herbivores y(2) , and the number of carnivores y(3).
+We will call the plant mass y(1), the number of herbivores y(2), and the number of carnivores y(3).
 
 Sources: [source_1](https://www.jstor.org/stable/1940591?seq=2), [source_2](https://sysbio.mx/wp-content/uploads/2021/02/2017_Book_ModelingLife.pdf), 
 
@@ -26,7 +26,7 @@ Sources: [source_1](https://www.jstor.org/stable/1940591?seq=2), [source_2](http
 
 ### Scenario 1
 
-In the first scenario, we have changed mainly 2 parameters: (1) the initial condition for the number of predators, thus lynx and (2) the parameter b2 which represents the effect of the competition among the lynx for hares. When setting the parameters respectively on 8.3 and 1.1 while conserving the other parameters at the same values, we obtain a graph with each curve having a consistent and regular periodicity of approximately 70 months.
+We've changed mainly 2 parameters: (1) the initial condition for the number of lynx and (2) the parameter b2. When setting the parameters respectively on 8.3 and 1.1 while conserving the other parameters at the same values, we obtain a graph with each curve having a consistent and regular periodicity of approximately 70 months.
 
 ### Scenario 2
 
