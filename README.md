@@ -18,7 +18,7 @@ d2 : Death rate of lynx from natural causes or lack of prey.
 
 Plant=y(1); hares=y(2); lynx=y(3).
 
-Sources: [source_1](https://www.jstor.org/stable/1940591?seq=2), [source_2](https://sysbio.mx/wp-content/uploads/2021/02/2017_Book_ModelingLife.pdf), 
+Sources: [source_1](https://www.jstor.org/stable/1940591?seq=2), [source_2](https://sysbio.mx/wp-content/uploads/2021/02/2017_Book_ModelingLife.pdf). 
 
 ## Task 2: 
 
